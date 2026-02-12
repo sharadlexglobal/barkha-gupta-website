@@ -1,132 +1,228 @@
-# Barkha Gupta - Ultra-Premium Website
+# Just People by Barkha Gupta - Official Website
 
-An ultra-premium, museum-quality website for Justice Barkha Gupta, Retired District & Sessions Judge, Delhi Higher Judicial Services.
+![Website Status](https://img.shields.io/badge/status-live-success)
+![GitHub Pages](https://img.shields.io/badge/deployment-GitHub%20Pages-blue)
 
-## 🎨 Design Features
-
-- **Ultra-Premium Aesthetic**: Sophisticated serif typography, elegant color palette, and generous white space
-- **Animated Background**: Smooth floating geometric shapes in cream, beige, and navy tones
-- **Responsive Design**: Fully responsive across all devices (desktop, tablet, mobile)
-- **Smooth Animations**: Fade-in effects, scroll reveals, and hover interactions
-- **Professional Layout**: Clean grid-based design with excellent visual hierarchy
-
-## 📁 Files Included
-
-- `index.html` - Main HTML structure
-- `style.css` - Ultra-premium CSS styling with animations
-- `script.js` - Interactive JavaScript for smooth user experience
-- `README.md` - This file
-- `WEBSITE_NOTES.md` - Detailed design documentation
-- `VERIFICATION_NOTES.md` - Testing and verification notes
-
-## 🚀 Quick Start
-
-### Option 1: Open Locally
-Simply open `index.html` in your web browser.
-
-### Option 2: Local Server (Recommended)
-```bash
-# Using Python
-python3 -m http.server 8080
-
-# Using Node.js
-npx http-server -p 8080
-
-# Then open: http://localhost:8080
-```
-
-### Option 3: Deploy to Web Hosting
-Upload all files to your web hosting service (Netlify, Vercel, GitHub Pages, etc.)
-
-## ⚙️ Customization
-
-### Update Social Media Links
-Edit `index.html` and replace the placeholder URLs:
-```html
-<a href="https://twitter.com/YOUR_HANDLE" ...>
-<a href="https://linkedin.com/in/YOUR_PROFILE" ...>
-<a href="https://instagram.com/YOUR_HANDLE" ...>
-<a href="https://youtube.com/@YOUR_CHANNEL" ...>
-```
-
-### Update Contact Email
-Replace `contact@barkhagupta.com` with your actual email address.
-
-### Add Blog Posts
-Edit the blog card sections in `index.html`:
-```html
-<article class="blog-card">
-    <time class="blog-date">YOUR DATE</time>
-    <h3 class="blog-title">YOUR TITLE</h3>
-    <p class="blog-excerpt">YOUR EXCERPT</p>
-    <a href="your-blog-post.html" class="read-more">Read More →</a>
-</article>
-```
-
-### Customize Colors
-Edit CSS variables in `style.css`:
-```css
-:root {
-    --color-ivory: #FDFBF7;
-    --color-gold: #C9A961;
-    /* Modify as needed */
-}
-```
-
-## 🎯 Key Sections
-
-1. **Header** - Name, credentials, tagline, social media links
-2. **Hero Section** - "OFF THE RECORD" podcast feature with YouTube link
-3. **Blog Section** - "LATEST INSIGHTS" with 6 featured blog posts
-4. **Contact Section** - Email contact information
-5. **Footer** - Location and copyright
-
-## 🌐 Browser Compatibility
-
-- ✅ Chrome/Edge (Latest)
-- ✅ Firefox (Latest)
-- ✅ Safari (Latest)
-- ✅ Mobile Browsers (iOS Safari, Chrome Mobile)
-
-## 📱 Responsive Breakpoints
-
-- Desktop: 1200px+
-- Laptop: 968px - 1200px
-- Tablet: 768px - 968px
-- Mobile: < 768px
-
-## 🎬 Animations Included
-
-- Fade-in on page load
-- Scroll reveal for blog cards
-- Hover effects on cards and buttons
-- Floating background shapes with parallax
-- Smooth transitions throughout
-
-## 📝 To-Do Before Launch
-
-- [ ] Update all social media URLs
-- [ ] Add actual blog post content
-- [ ] Verify email address
-- [ ] Add favicon
-- [ ] Add meta tags for SEO
-- [ ] Test on multiple devices
-- [ ] Optimize images (if added)
-- [ ] Set up analytics (optional)
-
-## 🎨 Design Philosophy
-
-This website embodies a **museum-quality, ultra-premium aesthetic** with:
-- Impeccable typography using Cormorant Garamond and Inter fonts
-- Sophisticated color harmony (ivory, beige, navy, gold)
-- Generous white space for breathing room
-- Subtle animations that enhance without overwhelming
-- Professional, authoritative, yet approachable feel
-
-## 📄 License
-
-© 2026 Barkha Gupta. All rights reserved.
+**Professional family and matrimonial law advisory services with over 32 years of judicial experience.**
 
 ---
 
-**Need Help?** Refer to `WEBSITE_NOTES.md` for detailed documentation.
+## 🌐 Live Website
+
+**View the website:** [https://sharadlexglobal.github.io/barkha-gupta-website/](https://sharadlexglobal.github.io/barkha-gupta-website/)
+
+---
+
+## 📖 About
+
+Just People by Barkha Gupta provides expert legal advisory services in family and matrimonial law. Founded by Ms. Barkha Gupta, a retired District Judge with 32+ years of experience in the Delhi judiciary, we offer compassionate, professional guidance for families navigating complex legal matters.
+
+### Our Services
+- Divorce & Separation Advisory
+- Child Custody & Visitation Rights
+- Matrimonial Property Disputes
+- Domestic Violence Protection
+- Maintenance & Alimony Matters
+- Pre & Post-Nuptial Agreements
+- Cross-Border Family Law Issues
+- Mediation & Alternative Dispute Resolution
+
+---
+
+## 🎨 Website Features
+
+✨ **Ultra-Premium Design**
+- Sophisticated color palette (ivory, cream, beige, navy, gold)
+- Smooth geometric background animations
+- Professional typography (Cormorant Garamond + Inter)
+- Museum-quality aesthetic
+
+📱 **Fully Responsive**
+- Optimized for desktop, tablet, and mobile
+- Touch-friendly navigation
+- Fast loading times
+
+🔧 **Functionality**
+- Newsletter subscription (Resend API)
+- Contact form with validation
+- Social media integration
+- OFF THE RECORD podcast section
+- Blog/insights section
+- Smooth scroll animations
+
+---
+
+## 📁 Project Structure
+
+```
+barkha-gupta-website/
+├── index.html              # Home page
+├── about.html              # About Us
+├── services.html           # Services
+├── founder.html            # About Founder
+├── insights.html           # Blog/Insights
+├── contact.html            # Contact
+├── css/
+│   └── style.css           # Main stylesheet
+├── js/
+│   └── main.js             # JavaScript functionality
+├── api/
+│   ├── server.js           # Backend API (Node.js/Express)
+│   ├── package.json        # API dependencies
+│   └── README.md           # API documentation
+├── images/                 # Image assets
+└── DEPLOYMENT_GUIDE.md     # Detailed deployment instructions
+```
+
+---
+
+## 🚀 Quick Start
+
+### View Locally
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/sharadlexglobal/barkha-gupta-website.git
+   cd barkha-gupta-website
+   ```
+
+2. Open `index.html` in your browser
+
+### Deploy to GitHub Pages
+
+1. Go to **Settings → Pages**
+2. Select **Source:** `master` branch, `/` (root)
+3. Click **Save**
+4. Website will be live at: `https://[username].github.io/barkha-gupta-website/`
+
+---
+
+## 🔧 Setup Newsletter & Contact Forms
+
+The website includes newsletter and contact forms that require backend API setup.
+
+### Option 1: Deploy API to Vercel (Recommended)
+
+```bash
+cd api
+npm install
+vercel
+```
+
+Add environment variable in Vercel dashboard:
+- `RESEND_API_KEY` = your API key from [Resend](https://resend.com/api-keys)
+
+### Option 2: Use Form Services
+
+Replace API calls with services like:
+- [Formspree](https://formspree.io)
+- [Netlify Forms](https://www.netlify.com/products/forms/)
+- [Google Forms](https://www.google.com/forms/about/)
+
+See `DEPLOYMENT_GUIDE.md` for detailed instructions.
+
+---
+
+## 🎨 Customization
+
+### Update Social Media Links
+
+Find and replace in all HTML files:
+- `https://twitter.com/justpeople` → Your Twitter/X URL
+- `https://linkedin.com/company/justpeople` → Your LinkedIn URL
+- `https://instagram.com/justpeople` → Your Instagram URL
+- `https://youtube.com/@justpeople` → Your YouTube URL
+
+### Update Contact Email
+
+Replace `contact@justpeoplebybarkhagupta.in` with your email address.
+
+### Modify Colors
+
+Edit `css/style.css` - CSS variables at the top:
+```css
+:root {
+    --color-ivory: #FFFFF0;
+    --color-navy: #2C3E50;
+    --color-gold: #D4AF37;
+    /* ... */
+}
+```
+
+---
+
+## 🛠️ Technologies Used
+
+- **Frontend:** HTML5, CSS3, Vanilla JavaScript
+- **Backend:** Node.js, Express.js
+- **Email Service:** Resend API
+- **Hosting:** GitHub Pages
+- **Fonts:** Google Fonts (Cormorant Garamond, Inter)
+
+---
+
+## 📝 Content Management
+
+### Add Blog Posts
+
+Edit `insights.html` and add:
+```html
+<article class="blog-card">
+    <time class="blog-date">FEB 12, 2026</time>
+    <h3 class="blog-title">Your Title</h3>
+    <p class="blog-excerpt">Your excerpt...</p>
+</article>
+```
+
+### Add Services
+
+Edit `services.html` and add:
+```html
+<div class="service-detail">
+    <h3>🎯 Service Name</h3>
+    <p>Service description...</p>
+</div>
+```
+
+### Add Testimonials
+
+Edit `index.html` testimonials section:
+```html
+<div class="testimonial-card">
+    <div class="testimonial-quote">"</div>
+    <p class="testimonial-text">Testimonial text...</p>
+    <p class="testimonial-author">— Client Name, Location</p>
+</div>
+```
+
+---
+
+## 📧 Contact
+
+**Email:** contact@justpeoplebybarkhagupta.in  
+**Office Hours:** Monday - Saturday, 10:00 AM - 6:00 PM  
+**Location:** Delhi, India
+
+---
+
+## 📄 License
+
+© 2026 Just People by Barkha Gupta. All rights reserved.
+
+---
+
+## 🤝 Contributing
+
+This is a private website for Just People by Barkha Gupta. For inquiries about modifications or updates, please contact via email.
+
+---
+
+## 📚 Documentation
+
+- **[DEPLOYMENT_GUIDE.md](DEPLOYMENT_GUIDE.md)** - Complete deployment instructions
+- **[api/README.md](api/README.md)** - API documentation
+- **[WEBSITE_REDESIGN_PLAN.md](WEBSITE_REDESIGN_PLAN.md)** - Original design plan
+
+---
+
+**Built with care and attention to detail** ⚖️
