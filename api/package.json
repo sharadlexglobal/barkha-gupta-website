@@ -1,0 +1,21 @@
+{
+  "name": "just-people-api",
+  "version": "1.0.0",
+  "description": "API server for Just People by Barkha Gupta website",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": ["newsletter", "contact-form", "resend", "api"],
+  "author": "Just People by Barkha Gupta",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "resend": "^3.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
